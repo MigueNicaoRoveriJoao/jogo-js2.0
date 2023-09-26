@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+/*---------------------------canvas*/
+#canvas1{
+  position: absolute;
+  border: 3px solid  white;
+  width: 800px;
+  height: 500px;
+  transform: translate(-50%);
+  top: 25%;
+  left: 50%;
+}
+.personagem {
+  background-image: url("/assets/personagem.png");
+  width: 1000px;
+  height: 48px;
+  background-color: aqua;
+}
+@font-face {
+  font-family: 'bitesco';
+  src: url('/Fontes/PixNull.ttf') format('truetype'); /* Substitua o caminho e o formato conforme necessário */
+
+  font-family: 'eightBit';
+  src: url('/Fontes/8-BIT\ WONDER.TTF') format('truetype');
+}
+.logo {
+  width: 300px;
+}
